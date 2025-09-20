@@ -5,4 +5,8 @@ window.addEventListener('DOMContentLoaded', () => {
     if(title){
         title.style.color = 'blue'; // Change text color to blue
     }
+    document.body.style.backgroundImage = "url('bg.png')";
+    document.body.style.backgroundSize = "cover";       // scale to cover page
+    document.body.style.backgroundRepeat = "no-repeat"; // no tiling
+    document.body.style.backgroundPosition = "center";  // center the image
 });
